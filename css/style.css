@@ -2,27 +2,30 @@
 
 h1{
   color: white;
-  font-size: 6;
+  font-size: 2;
 }
 h2{
   color: white;
   font-family: fantasy;
 }
-img{
-  float : left;
-}
 h3{
   color: white;
   text-align: center;
 }
+img{
+  float : right;
+}
 p{
   color: white;
 }
-.projects p {
+ul{
+  color: black;
+}
+.projects {
   background-color: coral;
 }
-.background p {
-  background-color: steelblue;
+.background {
+  background-color: grey;
 }
 body{
   background-color: steelblue;
