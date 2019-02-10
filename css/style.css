@@ -1,16 +1,30 @@
 
 
 h1{
-  color: purple;
+  color: white;
   font-size: 6;
 }
 h2{
-  color : purple;
-  text-align:center;
+  color: white;
+  font-family: fantasy;
+}
+img{
+  float : left;
 }
 h3{
   color: white;
+  text-align: center;
+}
+p{
+  color: white;
+}
+.projects p {
+  background-color: coral;
+}
+.background p {
+  background-color: steelblue;
 }
 body{
-  background-color: black;
+  background-color: steelblue;
+  font-family: sans-serif;
 }
