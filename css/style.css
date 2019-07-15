@@ -1,33 +1,99 @@
+html,
+body,
+header,
+#intro {
+    height: 90%;
+    width: 100%;
+}
 
+
+
+
+#intro {
+  background-image: url('/home/shirley/Downloads/50795562-.png.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+/* body{
+  
+  font-family: sans-serif;
+  background-image: image(50795562-.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+ 
+} */
+
+
+
+body{
+   
+     position: absolute; 
+     width: 100%; 
+    /* height: 1667px;  */
+    background: url(50795562-.jpg), url(50795562-.jpg);
+
+} 
 
 h1{
-  color: white;
+  color: black;
   font-size: 2;
-}
-h2{
-  color: white;
   font-family: fantasy;
-}
-h3{
-  color: white;
+  margin-top: -200;
   text-align: center;
 }
-img{
+h2{
+  color: black;
+  font-family: fantasy;
+  text-align: center; 
+}
+h3{
+  color: black;
+  text-align: center;  
+  font-family: fantasy;
+  }
+/* img{
   float : right;
 }
 p{
-  color: white;
+  color: black;
 }
 ul{
   color: black;
 }
 .projects {
-  background-color: coral;
+  background-color: white;
 }
 .background {
-  background-color: grey;
+  background-color: white;
+} */
+
+/*  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 0;
+  vertical-align: baseline;
+  background: transparent;
+} */
+
+/* .landing{
+   height: 100vh;
+   position: relative;
 }
-body{
-  background-color: steelblue;
-  font-family: sans-serif;
-}
+.landings {
+  margin-top: 4em;
+} */
+.scroll {
+  position: relative;
+  bottom: 180px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}  */
