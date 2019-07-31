@@ -2,7 +2,7 @@ html,
 body,
 header,
 #intro {
-    height: 90%;
+    height: 100%;
     width: 100%;
 }
 
@@ -10,7 +10,7 @@ header,
 
 
 #intro {
-  background-image: url();
+  background-image: url('/home/shirley/Downloads/50795562-.png.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,8 @@ header,
 	 left: 0;
 	 position: absolute;
 	 width: 0%;
-	 height: 100%;
+   height: 100%;
+   /* background: #008CBA; */
 	 background: #f9ff57;
 	 animation: effect-block 2s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 	 animation-delay: 1s;
@@ -144,7 +145,7 @@ header,
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color:rgba(0, 0, 0, 0.5); 
 }
 
 .container:hover .overlay {
@@ -162,19 +163,6 @@ header,
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-/* body{
-  
-  font-family: sans-serif;
-  background-image: image(50795562-.jpg);
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
- 
-} */
-
-
 
 body{
    
@@ -202,39 +190,7 @@ h3{
   text-align: center;  
   font-family: fantasy;
   }
-/* img{
-  float : right;
-}
-p{
-  color: black;
-}
-ul{
-  color: black;
-}
-.projects {
-  background-color: white;
-}
-.background {
-  background-color: white;
-} */
 
-/*  {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 0;
-  vertical-align: baseline;
-  background: transparent;
-} */
-
-/* .landing{
-   height: 100vh;
-   position: relative;
-}
-.landings {
-  margin-top: 4em;
-} */
 .scroll {
   position: relative;
   bottom: 180px;
